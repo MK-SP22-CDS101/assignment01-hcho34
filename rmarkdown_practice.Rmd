@@ -29,7 +29,44 @@ urlcolor: blue
 
 
 #  Section
+Section 001
 
 # Course Goals
 
+
+By the end of the course, students will be able to:
+
+
+* Use [GitHub](https://github.com/) for creating a reproducible research document.
+
+    -- My GitHub username is: *write_your_github_username_here_in_italic_text*.
+  
+  
+* Obtain, clean, transform, and visualize a dataset using the R programming language.
+
+
+* Interpret and predict dataset trends using statistical inference and models.
+
+
+* Critically examine and interpret statistical claims reported in mass media.
+
 # Including Code
+## Running R code in a code chunk
+```{r}
+x <- 2+2
+x + 3
+```
+
+The output of first line of code is not printed out because it is assigned to a variable instead.
+
+
+The second line of output is printed out instead, but this means that the calculated value has notbeen saved for future use.
+
+## Displaying Graphs
+```{r}
+ggplot2::qplot(data = iris, x = Sepal.Length, y = Sepal.Width)
+```
+
+
+
+
