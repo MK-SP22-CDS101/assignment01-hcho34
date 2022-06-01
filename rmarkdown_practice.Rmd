@@ -27,10 +27,9 @@ urlcolor: blue
 
 <!-- Write your Markdown below this line -->
 
-#Hello World!
 
-##Hello World!
+#  Section
 
-Try replacing # with ## in the RMarkdown file - what happens?
+# Course Goals
 
-  The words next to ## become smaller than the words next to #.
+# Including Code
